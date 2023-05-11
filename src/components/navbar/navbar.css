@@ -1,0 +1,94 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: transparent;
+}
+
+
+.pearllumilogo {
+	width: 168px;
+	height: 29px;
+	margin-left: 54px;
+	padding-top: 45px;
+	font-weight: 500px;
+	display: inline-block;
+
+}
+
+nav {
+	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+	font-family: Playfair Display;
+	font-weight: 500px;
+	}
+
+.about-nav, .how-we-work-nav {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-right: 42px;
+	}
+
+.the-team-nav {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-right: 66px;
+}
+
+.about-nav:active {
+	color: #32323E;
+	text-decoration: none;
+	}
+
+.how-we-work-nav:active {
+	color: #32323E;
+	text-decoration: none;
+	}
+
+.the-team-nav:active {
+	color: #32323E;
+	text-decoration: none;
+	}
+
+.navlist {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  	list-style: none;
+  	gap: 1rem;
+  	margin-top: 49px;
+  	font-weight: 500px;
+  	font-size: 14px;
+  	color: #FFFFFF;
+  	margin-right: 110px;
+}
+
+.say-hello {
+	background-color: #AE8C9A;
+	color: #FFFFFF;
+	font-family: 'Poppins', sans-serif;
+  	text-decoration: none;
+  	font-size: 14px;
+  	font-weight: 700;
+  	border-radius: 40px;
+  	width: 107px;
+	height: 34px;
+}
+
+.say-hello:hover {
+	border-style: none;
+    border-width: 2px;
+    border-color: #cca9b7;
+    background-color: #fff;
+    color: #cca9b7;
+}
+/* fixed navbar */
+.fixed-navbar{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+	z-index: 999;
+	color: #32323E;
+}

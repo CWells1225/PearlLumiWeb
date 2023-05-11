@@ -1,0 +1,527 @@
+.hero {
+    position: relative;
+    width: auto;
+    height: 656px;
+    padding-right: 60px;
+    padding-left: 100px;
+    background-color: #32323e;
+    -webkit-column-count: auto;
+    column-count: auto;
+}
+
+.hero.work {
+    height: 386px;
+}
+
+.heading-12-work {
+    color: #ffcab6;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    width: 120px;
+    height: 22px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 199px;
+    padding-left: 110px;
+    padding-right: 848px;
+    padding-bottom: 10px;
+}
+
+.heading {
+    color: #fff;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-family: 'Playfair Display', serif;
+}
+
+.heading.highlight-work {
+    max-width: 800px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.03em;
+    text-transform: none;
+    padding-left: 110px;
+}
+
+.semi-bold-work {
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 60px;
+}
+
+.heading-28 {
+    font-size: 40px;
+    line-height: 47px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.02em;
+    color: #32323E; 
+
+    }
+
+.wk-cards-work {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.list-item {
+    line-height: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #32323E;
+
+}
+
+.list-header {
+    margin-bottom: 12px;
+    padding-left: 25px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #32323E;
+}
+
+.div-block-17 {
+    position: relative;
+    width: 25%;
+    margin-top: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    border-style: solid;
+    border-width: 5px 1px 1px;
+    border-color: #cca9b7 #f8f1e9 #f8f1e9;
+}
+
+.div-block-17.minus-left-margin {
+    margin-left: 0px;
+}
+
+.div-block-17.minus-right-margin {
+    margin-right: 0px;
+}
+
+.image-7 {
+    position: relative;
+    top: 0px;
+    bottom: auto;
+    text-align: left;
+}
+
+.image-7.img-card-pos {
+    position: static;
+    left: 57px;
+    top: -41px;
+}
+
+.img-card-pos {
+    position: relative;
+}
+
+.div-block-18 {
+    position: relative;
+    bottom: 45px;
+    text-align: center;
+}
+
+.ab-container-work {
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ab-section {
+    display: block;
+    padding: 80px 60px;
+    background-color: #fff;
+}
+
+.ab-section.linen-bgcolor {
+    display: block;
+    background-color: #f8f1e9;
+}
+
+.ab-section.linen-bgcolor.minus-padding {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.ab-container-work.bgcolor-band {
+    width: auto;
+    height: auto;
+    padding-bottom: 0px;
+    border-left: 5px solid #cca9b7;
+    background-color: #f8f1e9;
+}
+
+.ab-content {
+    position: static;
+    overflow: visible;
+    height: auto;
+    max-width: 1024px;
+    background-color: transparent;
+    text-align: left;
+}
+
+.sub-heading-tiny {
+    margin-bottom: 15px;
+    color: #793752;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sub-heading-standard {
+    width: 635px;
+    height: 42px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #32323E;
+}
+
+.main {
+    position: static;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+}
+
+.ab-cards-how {
+    display: none;
+    margin-top: 35px;
+    }
+
+ .ab-card-how {
+        width: 50%;
+    margin-right: 10px;
+    padding: 35px;
+    border-style: solid none none;
+    border-width: 18px 1px 1px;
+    border-color: #cca9b7 #000 #000;
+    background-color: #fff;
+    }
+
+    .card-how {
+        padding-top: 0px;
+        padding-right: 82px;
+        padding-left: 17px;
+    }
+
+.heading-core {
+    color: #32323e;
+    font-size: 30px;
+    line-height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    width: 150px;
+    height: 36px;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #32323E;
+    width: 298px;
+    height: 89px;
+}
+
+.content-wrapper {
+    position: static;
+    width: 50%;
+    background-color: #fff;
+}
+
+.box-heading {
+    margin-bottom: 26px;
+    padding-top: 35px;
+    padding-left: 35px;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.box-para {
+    margin-right: 60px;
+    padding-left: 35px;
+    text-align: left;
+}
+
+.div-block-31 {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: 55px;
+    margin-left: -129px;
+}
+
+.div-block-blah {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 50px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.div-block-68 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 50px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.div-block-73 {
+    display: none;
+}
+
+.div-block-82 {
+        background-image: url("https://uploads-ssl.webflow.com/5fb80387d0b0b18ea3a62288/5fe50284b7e629dc75cdf9ed_office-min.png");
+        background-position: 0px 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .image-56 {
+        display: none;
+    }
+
+    .div-block-83 {
+        background-image: url("https://uploads-ssl.webflow.com/5fb80387d0b0b18ea3a62288/5fe50a2a3e57ba7b27480343_x-ventures-min.png");
+        background-position: 50% 50%;
+        background-size: 428px;
+        background-repeat: no-repeat;
+    }
+
+    .image-57 {
+        display: none;
+    }
+
+    .div-block-84 {
+        background-image: url("https://uploads-ssl.webflow.com/5fb80387d0b0b18ea3a62288/5fdbb047358292794eb63fe3_design-min.png");
+        background-position: 50% 50%;
+        background-size: 428px;
+        background-repeat: no-repeat;
+    }
+
+    .image-58 {
+        display: none;
+    }
+
+    .div-block-85 {
+        background-image: url("https://uploads-ssl.webflow.com/5fb80387d0b0b18ea3a62288/5fdbb05920acaf22f7490d24_develop-min.png");
+        background-position: 50% 50%;
+        background-size: 428px;
+        background-repeat: no-repeat;
+    }
+
+    .image-59 {
+        display: none;
+    }
+
+    .div-block-86 {
+        background-image: url("https://uploads-ssl.webflow.com/5fb80387d0b0b18ea3a62288/5fdbb069f742fe7b9f6cc57d_maintain-min.png");
+        background-position: 0% 0%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+.heading-21 {
+    margin-bottom: 16px;
+    color: #793752;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    width: 550px;
+    height: 42px;
+}
+
+.text-block-18 {
+    margin-bottom: 47px;
+    line-height: 21px;
+    width: 841px;
+    height: 46px;
+    font-family: 'Raleway', sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #32323E;
+}
+
+.div-block-32 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-left: auto;
+    padding-bottom: 0px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.div-block-33 {
+   text-align: center;
+}
+
+.div-block-33.link-block {
+    text-decoration: none;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display:inline-block
+}
+
+.work-card-title-L {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: #32323e;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    margin-left: -60px;
+}
+
+.work-card-desc-L {
+    color: #32323e;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 650px;
+    
+}
+
+.work-card-title-R {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: #32323e;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-left: 640px;
+    margin-right: 175px;
+    width: 250px;
+}
+
+.work-card-desc-R {
+    color: #32323e;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: center;
+    margin-left: 640px;
+    margin-right: 175px;
+    margin-top: -25px;
+}
+
+.text-block-23-work {
+    display: inline-block;
+    margin-top: 12px;
+    color: #793752;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: right;
+    margin-left: -550px;
+
+}
+
+.link-block-2 {
+    display: none;
+    margin-top: 12px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.image-27-work {
+    display: inline;
+    left: 10%;
+    top: 48.14%;
+    bottom: -48.14%;
+    text-align: right;
+}
+
+.image-55-L {
+    margin-left: 70px;
+    margin-right: 630px;
+}
+
+.image-55-R {
+    margin-left: 570px;
+    margin-right: 108px;
+
+}
+
+
+
