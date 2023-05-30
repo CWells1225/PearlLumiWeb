@@ -1,51 +1,80 @@
-import { Link, useMatch, useResolvedPath } from "react-router-dom"
-import logo from "../../asset/images/PearlLumiLogo.png"
-import "./navbar.css" 
-import Sayhello from "../sayhello/Sayhello";
-import { useState } from "react";
+import { useState, useCallback } from 'react';
+import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+import logo from '../../asset/images/PearlLumiLogo.png';
+import SayHello from '../sayhello/Sayhello';
+import './navbar.css';
 
-export default function Navbar(){
-	const [modalSayhello ,setModalSayhello] = useState(false)
+const CustomLink = ({ to, children }) => {
+	const resolvedPath = useResolvedPath(to);
+	const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+
 	return (
-
-	<nav className="navbar  fixed-navbar">
-	<div>
-		<Link to="/" ><img src={logo} className="pearllumilogo" alt="pearllumi logo" /></Link>
-	</div>
-
-	<div>
-	<ul className="navlist">
-		<CustomLink to="/about-us" className="about-nav"> ABOUT US 
-		</CustomLink>
-
-		<CustomLink to="/how-we-work" className="how-we-work-nav"> HOW WE WORK 
-		</CustomLink> 
-
-		<CustomLink to="/the-team" className="the-team-nav"> THE TEAM 
-		</CustomLink>
-
-		{/* <CustomLink to="/sayhello" >  */}
-					<button className="say-hello" onClick={()=>setModalSayhello(!modalSayhello)}> SAY HELLO </button>
-		{/* </CustomLink> */}
-	</ul>
-	{modalSayhello && <Sayhello visible={modalSayhello} setModal={()=>setModalSayhello} />}
-	</div>
-
-	</nav>
-
-	);
-
-	function CustomLink({ to, children, ...props }) {
-		const resolvedPath = useResolvedPath(to)
-		const isActive = useMatch({ path: resolvedPath.pathname, end: true})
-
-		return (
-			<li className={isActive ? "active" : ""}>
-				<Link to={to} {...props}> 
+		<li>
+			<Link to={to} className={isActive ? 'link active' : 'link'}>
 				{children}
-				</Link>
-			</li>
+			</Link>
+		</li>
+	);
+};
 
-			)
-	}
-}
+const Navbar = () => {
+	const [modalSayHello, setModalSayHello] = useState(false);
+	const [hamburgerIsOpen, setHamburgerIsOpen] = useState(false);
+
+	const toggleHamburgerMenu = useCallback(() => {
+		setHamburgerIsOpen(!hamburgerIsOpen);
+	}, [hamburgerIsOpen]);
+
+	return (
+		<nav>
+			<div className={hamburgerIsOpen ? 'navbar open' : 'navbar'}>
+				<div className="logo-wrapper">
+					<Link to="/">
+						<img src={logo} className="logo" alt="PearlLumi logo" />
+					</Link>
+				</div>
+
+				<div
+					className={
+						hamburgerIsOpen
+							? 'hamburger-menu open'
+							: 'hamburger-menu'
+					}
+					onClick={toggleHamburgerMenu}>
+					<span />
+					<span />
+					<span />
+				</div>
+
+				<div
+					className={
+						hamburgerIsOpen ? 'list-wrapper open' : 'list-wrapper'
+					}>
+					<div className="nav-list">
+						<CustomLink to="/about-us">ABOUT US</CustomLink>
+
+						<CustomLink to="/how-we-work">HOW WE WORK</CustomLink>
+
+						<CustomLink to="/the-team">THE TEAM</CustomLink>
+
+						<button
+							className="say-hello"
+							onClick={() => setModalSayHello(!modalSayHello)}>
+							SAY HELLO
+						</button>
+					</div>
+				</div>
+			</div>
+
+			{modalSayHello && (
+				<SayHello
+					visible={modalSayHello}
+					setModal={() => setModalSayHello}
+				/>
+			)}
+		</nav>
+	);
+};
+
+export default Navbar;
+
