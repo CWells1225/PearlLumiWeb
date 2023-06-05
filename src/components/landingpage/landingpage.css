@@ -76,6 +76,7 @@
 }
 
 .hero-animation {
+    display: none;
     position: static;
     left: 0%;
     top: 0%;
@@ -234,7 +235,7 @@
 .w-inline-block {
     max-width: 100%;
     position: absolute;
-   
+
 }
 
 .text-block-23 {
@@ -246,7 +247,7 @@
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    line-height: 21.73px; 
+    line-height: 21.73px;
     letter-spacing: 0.01em;
     width: 85px;
     height: 25px;
@@ -257,7 +258,7 @@
     bottom: -48.14%;
     display: inline-block;
     position: absolute;
-    line-height: 21.73px; 
+    line-height: 21.73px;
 }
 
 .section {
