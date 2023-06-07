@@ -1,5 +1,5 @@
 import React from 'react';
-import { Hero, HeresHow, Partners } from 'screen/landing-page';
+import { Hero, HeresHow, Partners, MeetTheWomen } from 'screen/landing-page';
 
 const LandingPage = () => {
 	return (
@@ -7,6 +7,7 @@ const LandingPage = () => {
 			<Hero />
 			<HeresHow />
 			<Partners />
+			<MeetTheWomen />
 		</div>
 	);
 };
