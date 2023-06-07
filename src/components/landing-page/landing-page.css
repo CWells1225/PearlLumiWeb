@@ -1,13 +1,12 @@
-.landing {
-    position: relative;
-    width: auto;
-    height: 450px;
-    padding-right: 60px;
-    padding-left: 60px;
-    background-color: #32323e;
-    -webkit-column-count: auto;
-    column-count: auto;
+.landing-page {
+    width: 100vw;
+    padding: 0 60px;
 }
+
+
+
+
+
 
 .container {
     max-width: 1024px;
@@ -17,7 +16,7 @@
 
 .heading {
     color: #fff;
-    font-size: 40px;
+    font-size: 21px;
     line-height: 48px;
     font-weight: 400;
     letter-spacing: normal;
@@ -27,7 +26,7 @@
     max-width: 860px;
     font-family: 'Playfair Display', serif;
     color: #fff;
-    font-size: 40px;
+    /* font-size: 40px; */
     font-weight: 300;
     text-align: left;
     letter-spacing: 0.03em;
@@ -73,46 +72,6 @@
 
 .text-highlight-peach {
     color: #ffcab6;
-}
-
-.hero-animation {
-    display: none;
-    position: static;
-    left: 0%;
-    top: 0%;
-    right: auto;
-    bottom: auto;
-    background-color: transparent;
-}
-
-.bouncing-ball {
-    position: static;
-    left: auto;
-    top: 0%;
-    right: 0%;
-    bottom: auto;
-    display: block;
-    width: 1024px;
-    height: 656px;
-    max-width: 1024px;
-    -o-object-fit: fill;
-    object-fit: fill;
-    -o-object-position: 0% 50%;
-    object-position: 0% 50%;
-}
-
-.animate-section {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    display: block;
-    margin-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    background-color: transparent;
-    pointer-events: none
 }
 
 .animate-container {
@@ -561,3 +520,8 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 21px;
+    }
+}

@@ -1,0 +1,81 @@
+section#heres-how {
+    padding: 80px 60px;
+    background: white;
+}
+
+section#heres-how h3 {
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    max-width: 800px;
+    margin-bottom: 67px;
+}
+
+section#heres-how h3 span {
+    color: #793752;
+}
+
+section#heres-how h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 95px;
+}
+
+section#heres-how .cards-container {
+    display: flex;
+    border-style: none solid solid;
+    border-width: 5px 3px 3px;
+    border-color: #cca9b7 #f8f1e9 #f8f1e9;
+    border-top-right-radius: 0px;
+    opacity: 1
+}
+
+section#heres-how .cards-container .card {
+    border-top: 5px solid #cca9b7;
+    padding: 0 37px 0;
+    text-align: text;
+}
+
+section#heres-how .cards-container .card img {
+    display: block;
+    margin: -47px auto 50px;
+}
+
+section#heres-how .cards-container .card h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+section#heres-how .cards-container .card p {
+    line-height: 22px;
+}
+
+section#heres-how .cards-container .card .link {
+    display: flex;
+    line-height: 22px;
+    margin-top: 70px;
+    color: #793752;
+    justify-content: flex-end;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+section#heres-how .cards-container .card .link img {
+    margin: 0 0 0 5px;
+}
+
+@media screen and (max-width: 768px) {
+    section#heres-how .cards-container {
+        flex-direction: column;
+    }
+
+    section#heres-how .cards-container .card p {
+        margin-bottom: 70px;
+    }
+
+    section#heres-how .cards-container .card .link {
+        margin-top: 0;
+    }
+}

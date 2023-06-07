@@ -1,20 +1,17 @@
 nav {
-	position: absolute;
-	top: 30px;
-	left: 0;
-	width: 100vw;
-	z-index: 2;
 	color: #32323E;
-	font-family: Playfair Display;
+	font-family: 'Playfair Display';
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	margin: 30px auto 0;
+	padding: 0 60px;
 }
 
 .navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	max-width: 1160px;
 	width: 100%;
 }
 
@@ -80,6 +77,10 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+	nav {
+		padding: 0 30px;
+	}
+
 	.navbar {
 		position: relative;
 	}
@@ -110,6 +111,7 @@ nav {
 		background-color: #cca9b4;
 		border-radius: 8px;
 		padding: 12px;
+		z-index: 2;
 	}
 
 	.link {
@@ -126,7 +128,7 @@ nav {
 		justify-content: space-evenly;
 		padding: 15px;
 		border-radius: 8px 8px 0 0;
-		transition: color 100ms;;
+		transition: color 100ms;
 	}
 
 	.hamburger-menu.open {

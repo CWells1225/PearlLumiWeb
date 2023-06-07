@@ -1,0 +1,49 @@
+section#hero {
+    margin: 0 auto;
+    max-width: 1160px;
+    width: 100%;
+    height: 656px;
+    background:#32323e;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+section#hero h1 {
+    max-width: 1024px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: .03em;
+
+}
+
+section#hero h1 span {
+    color: #ffcab6
+}
+
+section#hero .hero-animation {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+section#hero .hero-animation .bouncing-ball {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    section#hero {
+        height: 401px;
+    }
+
+    section#hero h1{
+        font-size: 21px;
+    }
+}
