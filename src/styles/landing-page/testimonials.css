@@ -1,0 +1,90 @@
+section#testimonials {
+    padding: 50px 60px 80px;
+    background: #f8f1e9
+}
+
+section#testimonials .container {
+    display: flex;
+    flex-direction: column;
+}
+
+section#testimonials .container h5 {
+    margin-bottom: 7px;
+    color: #793752;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+section#testimonials .container h2 {
+    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+}
+
+section#testimonials .container .testimonials-wrapper {
+    display: flex;
+}
+
+section#testimonials .container .testimonials-wrapper .cards {
+    width: 50%;
+    border-top: 18px solid #cca9b7;
+    background: white;
+    padding: 10px;
+}
+
+section#testimonials .container .testimonials-wrapper .cards:first-of-type {
+    margin-right: 40px;
+}
+
+section#testimonials .container .testimonials-wrapper .cards h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+section#testimonials .container .testimonials-wrapper .cards p {
+    font-size: 14px;
+}
+
+section#testimonials .container .testimonials-wrapper .cards .client-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+section#testimonials .container .testimonials-wrapper .cards:last-of-type .client-details {
+    margin-top: 47px;
+}
+
+section#testimonials .container .testimonials-wrapper .cards .client-details .personal-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section#testimonials .container .testimonials-wrapper .cards .client-details .personal-detail span:first-of-type {
+    color: #793752;
+    font-size: 18px;
+    line-height: 31px;
+}
+
+section#testimonials .container .testimonials-wrapper .cards .client-details .personal-detail span {
+    font-size: 14px;
+    color: #000;
+}
+
+@media screen and (max-width: 772px) {
+    section#testimonials .container .testimonials-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    section#testimonials .container .testimonials-wrapper .cards {
+        width: 100%;
+    }
+
+    section#testimonials .container .testimonials-wrapper .cards {
+        width: 100%;
+    }
+}

@@ -1,5 +1,11 @@
 import React from 'react';
-import { Hero, HeresHow, Partners, MeetTheWomen } from 'screen/landing-page';
+import {
+	Hero,
+	HeresHow,
+	Partners,
+	MeetTheWomen,
+	Testimonials,
+} from 'screen/landing-page';
 
 const LandingPage = () => {
 	return (
@@ -8,6 +14,7 @@ const LandingPage = () => {
 			<HeresHow />
 			<Partners />
 			<MeetTheWomen />
+			<Testimonials />
 		</div>
 	);
 };
