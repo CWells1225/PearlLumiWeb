@@ -6,6 +6,7 @@ import {
 	MeetTheWomen,
 	Testimonials,
 } from 'screen/landing-page';
+import Footer from 'components/Footer';
 
 const LandingPage = () => {
 	return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
 			<Partners />
 			<MeetTheWomen />
 			<Testimonials />
+			<Footer />
 		</div>
 	);
 };

@@ -1,0 +1,37 @@
+#footer {
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .content {
+ margin-bottom: 55px;
+}
+
+#footer .copy-write {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#footer .copy-write span {
+    color: white;
+}
+
+#footer .content .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .content .wrapper .links > span {
+    color: #ae8c9a;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#footer .content .wrapper .links a {
+    font-size: 14px;
+    color: white;
+    margin-left: 20px;
+}
