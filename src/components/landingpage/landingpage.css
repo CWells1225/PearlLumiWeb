@@ -1,6 +1,6 @@
 .landing {
     width: auto;
-    height: 450px;
+    height: 650px;
     padding-right: 60px;
     padding-left: 60px;
     background-color: #32323e;
@@ -24,6 +24,9 @@
 
 .heading.landing-highlight {
     position: absolute;
+    margin-top: 140px;
+    margin-right: auto;
+    margin-left: auto;  
     width: auto; 
     font-family: 'Playfair Display', serif;
     color: #fff;
@@ -34,14 +37,6 @@
     text-transform: none;
 }
 
-.content {
-    display: block;
-    padding-left: 0px;
-}
-
-.content.landing-content {
-    margin-top: 140px;
-}
 
 .content.collage {
     position: relative;
@@ -130,7 +125,7 @@
 }
 
 .heading-2 {
-    max-width: 870px;
+    max-width: 800px;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     line-height: 36px;
@@ -233,6 +228,7 @@
 
 .w-inline-block {
     max-width: 100%;
+    display: inline-block;
     position: absolute;
    
 }
@@ -241,7 +237,7 @@
     display: inline-block;
     margin-top: 12px;
     color: #793752;
-    font-weight: 800;
+    font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
@@ -315,21 +311,23 @@
 }
 
 .circle-button {
-        position: static;
+        display: flex;
         margin-top: 10px;
-        background-color: #3898EC;
-        border: 0px;
+        background-color: #AE8C9A;
+        border-radius: 40px;
+        text-align: center;
+        width: 90px;
+        height: 15px;
     }
 
 .w-button {
-    display: inline-block;
+    display: flex;
     padding: 9px 15px;
-    background-color: #3898EC;
+    background-color: #AE8C9A;
     border: 0;
     line-height: inherit;
     text-decoration: none;
     cursor: pointer;
-    border-radius:0;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -339,10 +337,8 @@
     color: #FFFFFF;
     text-transform: uppercase;
     position: absolute;
-    width: 100px;
     bottom: 32px;
     left: 50%;
-    transform: translate(-50%,-50%);
     }
 
 .div-block-4 {
@@ -559,12 +555,112 @@
     position: absolute;
 }
 
+@media screen and (max-width: 999px) {
 
+.landing{
+    height: 550px;
+}
+
+.container {
+    width: auto;
+    max-width: none;
+    margin-right: auto;
+    margin-left: auto;
+}    
+
+.heading.landing-highlight {
+    position: absolute;
+    font-size: 35px;
+}
+
+.section {
+    border-style: none;
+}    
+
+.section.hidden-meet {
+    padding: 0px;
+}
+
+.content.collage {
+    display: block;
+    width: auto;
+    height: 300px;
+    background-color: #32323e;
+}    
+
+.circle {
+    left: 50%;
+    top: 50%;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-41 {
+    display: none;
+}
+
+.circle-button {
+    position: static;
+    margin-top: 10px;
+}
+
+.text-block-3 {
+    position: static;
+    font-size: 25px;
+    line-height: 42px;
+    color: #fff;
+
+}
+
+.image-46 {
+    display: none;
+}
+
+.image-47 {
+    display: none;
+}
+
+.div-block-4 {
+    display: none;
+}
+
+.div-block-11 {
+    display: none;
+}
+
+.div-block-60 {
+    display: none;
+}
+
+.div-block-61 {
+    display: none;
+}
+
+.div-block-62 {
+    display: none;
+}
+
+.div-block-63 {
+    display: none;
+}
+
+
+}
 
 @media screen and (max-width: 767px) {
 
 .landing {
-    height: 250px;
+    height: 450px;
+}
+
+.heading.landing-highlight {
+    position: absolute;
+    font-size: 31px;
 }
 
 .bouncing-ball {
@@ -573,19 +669,16 @@
 
 .animate-section {
     display: none;
-}
-
-.heading.landing-highlight {
-    position: absolute;
-    font-size: 31px;
-    line-height: 35px;
-    width: auto; 
-
+    
 }
 
 }
 
 @media screen and (max-width: 480px) {
+
+ .landing {
+    height: 350px;
+}   
 
 .bouncing-ball {
     display: none;
@@ -606,18 +699,19 @@
 
 }
 
-.content.collage {
-        position: static;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        height: 300px;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        background-color: #32323e;
+    .card {
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .text-block {
+        margin-top: -53px;
+        padding-top: 0px;
+    }
+
+.text-block-2 {
+        margin-bottom: 30px;
     }
 
     }

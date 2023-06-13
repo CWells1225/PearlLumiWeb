@@ -7,13 +7,13 @@ export default function Landingpage() {
 	<>
 		<div className="landing wf-section">
 		<div className="container">
-		<div className="content landing-content">
+
 		<h1 className="heading landing-highlight">An agency of strategists, designers, creators, <br />and developers that champion <br />
 		<span className="text-highlight-peach">women</span> and <span className="text-highlight-peach">minority-led </span>companies.
 		</h1>
 		</div>
 		</div>
-		</div>	
+	
 
 		<div className="animate-section">
 		<div className="animate-container">
@@ -25,7 +25,6 @@ export default function Landingpage() {
 
 		<div className="section wf-section">
 		<div className="container">
-		<div className="content testy1234">
 		<h1 className="heading-2">Helping you and your company identify who you are and present you to the world with an intuitive digital product that drives 
 		<span className="text-span"> conversion</span>.
 		</h1>
@@ -61,7 +60,7 @@ export default function Landingpage() {
 		</div>
 		</div>
 		</div>
-		</div>
+	
 
 		<div className="section clientband wf-section">
 		<div className="container">
