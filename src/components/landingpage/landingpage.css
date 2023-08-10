@@ -4,8 +4,7 @@
     padding-right: 60px;
     padding-left: 60px;
     background-color: #32323e;
-    -webkit-column-count: auto;
-    column-count: auto;
+    
 }
 
 .container {
@@ -117,11 +116,12 @@
 .section {
     padding: 80px 60px;
     border: 1px none #000;
-    background-color: #E5E5E5;
+    background-color: #fff;
 }
 
 .text-span {
     color: #793752;
+    letter-spacing: 0.03em;
 }
 
 .heading-2 {
@@ -130,6 +130,7 @@
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
+    letter-spacing: 0.03em;
 }
 
 .title-block {
@@ -575,7 +576,29 @@
 
 .section {
     border-style: none;
-}    
+}   
+
+.heading-2 {
+    max-width: none;
+} 
+
+.title-block {
+    overflow: visible;
+    width: auto;
+    max-width: none;
+}
+
+.cards {
+    display: flex;
+    width: 90vw;
+    max-width: 100%;
+    padding-right: 0px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border-right-style: none;
+    border-right-color: #f8f1e9;
+    border-left-style: none;
+}
 
 .section.hidden-meet {
     padding: 0px;
@@ -672,6 +695,16 @@
     
 }
 
+.heading-2 {
+    font-size: 31px;
+    line-height: 35px;
+    font-weight: 300;
+}
+
+.title-block {
+    margin-top: 40px;
+}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -697,6 +730,22 @@
     line-height: 25px;
     width: auto; 
 
+}
+
+.section {
+    padding: 20px 16px;
+}
+
+.heading-2 {
+    color: #32323e;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.title-block {
+    margin-top: 16px;
+    margin-bottom: 67px;
+    font-size: 27px;
 }
 
     .card {
